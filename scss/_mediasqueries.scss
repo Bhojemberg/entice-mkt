@@ -3,12 +3,17 @@
         height: 200px;
     }    
 
-    .titulo {
+    body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .main .titulo {
         text-align: center;
         font-size: 4rem;
     }
 
-    .subtitulo {
+    .main .subtitulo {
         text-align: center;
         font-size: 3rem;
     }
@@ -31,9 +36,11 @@
         padding: 5px;
     }
 
+    .bi {
+        margin-left: 10px;
+    }
+
     .mapa {
-        width: auto;
-        padding-left: 20%;
-        padding-bottom: 5%;
+        width: 100%;
     }
 }
