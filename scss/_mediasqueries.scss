@@ -1,0 +1,39 @@
+@media (max-width: 480px) {
+    header, footer {
+        height: 200px;
+    }    
+
+    .titulo {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .subtitulo {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .container .botones ul li {
+        display: flex;
+    }
+
+    .sub-nosotros, .sub-servicios, .sub-packs, .sub-contacto {
+        text-align: center;
+    }
+
+    .formulario {
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .pie-de-pagina p {
+        margin-left: 10%;
+        padding: 5px;
+    }
+
+    .mapa {
+        width: auto;
+        padding-left: 20%;
+        padding-bottom: 5%;
+    }
+}
