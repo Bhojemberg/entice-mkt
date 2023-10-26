@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import "reset";
+@import "variables";
 @import "body";
 @import "header";
 @import "main-index";
@@ -8,3 +9,4 @@
 @import "paquetes";
 @import "servicios";
 @import "footer";
+@import "mixin";
