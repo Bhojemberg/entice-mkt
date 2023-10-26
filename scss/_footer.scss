@@ -1,0 +1,22 @@
+.pie-de-pagina {
+    backdrop-filter: blur(25px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #F5EAE3;
+}
+
+.bi {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #F5EAE3;
+    transition: .3s;
+}
+
+.bi:hover {
+    color: #ea1538;
+}
+

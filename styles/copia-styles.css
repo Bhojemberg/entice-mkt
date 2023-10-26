@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    display: grid;
+    grid-template-rows: 0.6fr 3fr 0.8fr;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/entice.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    backdrop-filter: blur(25px);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 7px;
+    color: #F5EAE3;
+    transition: .3s;
+}
+
+.nav-link:hover {
+    color: #ea1538; 
+    
+}
+
+
+/*Estilos main index*/
+
+.main {
+    text-align: center;
+    color: #F5EAE3;
+    padding: 50px;
+}
+
+span {
+    color: #ea1538;
+}
+
+.titulo {
+    font-size: 5rem;
+    padding: 30px;
+    text-shadow: 2px 2px #000;
+}
+
+.subtitulo {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    padding: 50px;
+}
+
+
+.botones ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.botones ul li {
+    list-style-type: none;
+}
+
+.botones ul li a{
+    text-decoration: none;
+    padding: 20px;
+    margin: 30px;
+    font-size: 1rem;
+    color: #F5EAE3; 
+    background-color: #ea1538;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.botones ul li a:hover {
+    color: #ea1538;
+    background-color: #F5EAE3;
+}
+
+
+
+/*Estilos Nosotros*/
+
+.sub-nosotros{
+    color: #F5EAE3;
+    font-size: 3rem;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-shadow: 2px 2px #000;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-nos {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid #ea1538;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, .4);
+    background-size: cover;
+}
+
+.card-nos:hover {
+    transform: translateY(-15px);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.card-text-nos {
+    color: #ea1538;
+    font-weight: bold;
+    margin-top: 20px;
+}   
+
+
+
+/*Estilos de Servicios*/
+
+.sub-servicios {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    padding: 20px;
+}
+
+.container-servicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-servicio .tit-servicio, .text-servicio {
+    color: #F5EAE3;
+}
+
+.servicio{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 30px;
+}
+
+.servicio .bi, .servicio-1 .bi {
+    color: #ea1538;
+    font-size: 7rem;
+}
+
+
+/*Estilos paquetes*/
+
+.sub-packs {
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    margin-left: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid #ea1538;
+}
+
+.card-header {
+    color: #ea1538;
+    text-shadow: 2px 2px #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 8px;
+    border-bottom: 2px solid #ea1538;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+}
+
+.card-title, .card-text {
+    color: #F5EAE3;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Estilos contacto-formulario*/
+
+.sub-contacto {
+    font-size: 3rem;
+    margin-left: 30px;
+    padding: 50px;
+    text-shadow: 2px 2px #000;
+}
+
+.formulario {
+    width: 40%;
+    margin: 0 auto;
+}
+
+ .row, .form-floating {
+    padding: 7px 5px 7px 0;
+}
+
+.btn {
+    margin-top: 10px;
+    color: #F5EAE3;
+    background-color: #ea1538;
+    border: 1px solid #ea1538;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #F5EAE3;
+    color: #ea1538;
+    border: 2px solid #ea1538;
+} 
+
+.mapa {
+    width: 750px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/*Estilos footer*/
+.pie-de-pagina {
+    backdrop-filter: blur(25px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 80px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #F5EAE3;
+}
+
+
+.bi {
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #F5EAE3;
+    transition: .3s;
+}
+
+.bi:hover {
+    color: #ea1538;
+}
+
+.bi-arrow-up-square-fill {
+    font-size: 1.8rem;
+}
+
+/*Adap Movil*/
+
+@media (max-width: 480px) {
+    header, footer {
+        height: 200px;
+    }    
+
+    .titulo {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .subtitulo {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .container .botones ul li {
+        display: flex;
+    }
+
+    .sub-nosotros, .sub-servicios, .sub-packs, .sub-contacto {
+        text-align: center;
+    }
+
+    .formulario {
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .pie-de-pagina p {
+        margin-left: 10%;
+        padding: 5px;
+    }
+
+    .mapa {
+        width: auto;
+        padding-left: 20%;
+        padding-bottom: 5%;
+    }
+}

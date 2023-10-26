@@ -1,0 +1,40 @@
+.sub-servicios {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px #000;
+    padding: 20px;
+}
+
+.container-servicio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .tit-servicio {
+        color: #ea1538;
+        font-weight: bold;
+        text-shadow: 2px 2px #000;
+    }
+
+    .icono-3d {
+        width: 200px;
+    }
+}
+
+.container-servicio, .text-servicio {
+    color: #F5EAE3;
+}
+
+.servicio{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    margin: 30px;
+}
+
+
+.servicio .bi, .servicio-1 .bi {
+    color: #ea1538;
+    font-size: 7rem;
+}

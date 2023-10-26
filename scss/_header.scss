@@ -1,0 +1,29 @@
+header {
+    backdrop-filter: blur(25px);
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        margin: 50px;
+        border-radius: 50%;
+    }
+    .nav-link {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0 7px;
+        color: #F5EAE3;
+        transition: .3s;
+    }
+    
+    .nav-link:hover {
+        color: #ea1538; 
+        
+    }
+}
