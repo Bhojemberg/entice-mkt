@@ -6,17 +6,17 @@
     padding: 80px 20px;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #F5EAE3;
+    color: $color-secundario;
 }
 
 .bi {
     padding: 20px;
     font-size: 1.5rem;
-    color: #F5EAE3;
+    color: $color-secundario;
     transition: .3s;
 }
 
 .bi:hover {
-    color: #ea1538;
+    color: $color-primario;
 }
 

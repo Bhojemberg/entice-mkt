@@ -1,9 +1,9 @@
 .sub-nosotros{
-    color: #F5EAE3;
+    color: $color-secundario;
     font-size: 3rem;
     text-align: center;
     margin-top: 10px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px $color-detalle;
 
     .nosotros {
         display: flex;
@@ -21,7 +21,7 @@
     margin: 20px;
     width: 300px;
     background-color: rgba(0, 0, 0, 0.1);
-    border: 2px solid #ea1538;
+    border: 2px solid $color-primario;
     border-radius: 20px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, .9);
     background: rgba(0, 0, 0, .4);
@@ -29,14 +29,14 @@
     margin: 70px 37px ;
 
     .card-title {
-        color: #F5EAE3;
+        color: $color-secundario;
         text-align: center;
         padding: 5px;
     }
 
     .card-text-nos {
         text-align: center;
-        color: #ea1538;
+        color: $color-primario;
         font-weight: bold;
     }
 }

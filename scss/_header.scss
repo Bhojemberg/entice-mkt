@@ -14,16 +14,16 @@ header {
     }
     .nav-link {
         text-decoration: none;
-        color: #000;
+        color: $color-detalle;
         font-size: 1.2rem;
         font-weight: bold;
         margin: 0 7px;
-        color: #F5EAE3;
+        color: $color-secundario;
         transition: .3s;
     }
     
     .nav-link:hover {
-        color: #ea1538; 
+        color: $color-primario; 
         
     }
 }

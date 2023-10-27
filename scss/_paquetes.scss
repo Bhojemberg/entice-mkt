@@ -1,6 +1,6 @@
 .sub-packs {
     font-size: 3rem;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px $color-detalle;
     margin-left: 40px;
     padding: 30px;
 }
@@ -16,16 +16,16 @@
         width: 300px;
         height: 500px;
         background-color: rgba(0, 0, 0, 0.1);
-        border: 2px solid #ea1538;
+        border: 2px solid $color-primario;
     
         .card-header {
-            color: #ea1538;
-            text-shadow: 2px 2px #000;
+            color: $color-primario;
+            text-shadow: 2px 2px $color-detalle;
             font-weight: bold;
             font-size: 1.2rem;
             text-align: center;
             letter-spacing: 8px;
-            border-bottom: 2px solid #ea1538;
+            border-bottom: 2px solid $color-primario;
         }
     
         .card-body {
@@ -36,10 +36,10 @@
                 font-weight: bold;
                 font-size: 1.1rem;
                 letter-spacing: 5px;
-                color: #F5EAE3;
+                color: $color-secundario;
             }
             .card-text {
-                color: #F5EAE3;
+                color: $color-secundario;
             }
         }
         .card-text {
@@ -54,12 +54,12 @@
 .btn-primary {
     display: flex;
     justify-content: space-evenly;
-    background-color: #ea1538;
-    border: solid 1px #ea1538;
+    background-color: $color-primario;
+    border: solid 1px $color-primario;
 }
 
 .btn-primary:hover {
-    background-color: #F5EAE3;
-    border: solid 1px #ea1538;
-    color: #ea1538;
+    background-color: $color-secundario;
+    border: solid 1px $color-primario;
+    color: $color-primario;
 }

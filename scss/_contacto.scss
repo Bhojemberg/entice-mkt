@@ -1,7 +1,7 @@
 .sub-contacto {
     font-size: 3rem;
     margin-left: 30px;
-    text-shadow: 2px 2px #000;
+    text-shadow: 2px 2px $color-detalle;
 }
 
 .formulario {
@@ -16,16 +16,16 @@
 
 .btn {
     margin-top: 10px;
-    color: #F5EAE3;
-    background-color: #ea1538;
-    border: 1px solid #ea1538;
+    color: $color-secundario;
+    background-color: $color-primario;
+    border: 1px solid $color-primario;
     transition: .3s;
 }
 
 .btn:hover {
-    background-color: #F5EAE3;
-    color: #ea1538;
-    border: 2px solid #ea1538;
+    background-color: $color-secundario;
+    color: $color-primario;
+    border: 2px solid $color-primario;
 } 
 
 .mapa {
