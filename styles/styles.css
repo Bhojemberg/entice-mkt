@@ -62,6 +62,11 @@ header .nav-link:hover {
   padding: 30px;
   text-shadow: 2px 2px #000;
 }
+.main .subtitulo {
+  font-size: 2.8rem;
+  text-shadow: 2px 2px #000;
+  margin-top: 70px;
+}
 .main .botones {
   display: flex;
   justify-content: space-evenly;
@@ -75,12 +80,6 @@ span {
   color: #ea1538;
 }
 
-.subtitulo {
-  font-size: 2.8rem;
-  text-shadow: 2px 2px #000;
-  margin-top: 70px;
-}
-
 .sub-contacto {
   font-size: 3rem;
   margin-left: 30px;
@@ -88,19 +87,12 @@ span {
 }
 
 .formulario {
-  width: 40%;
+  width: 50%;
   margin: 0 auto;
   padding-top: 20px;
 }
-
-.row, .form-floating {
+.formulario .row, .formulario .form-floating {
   padding: 7px 5px 7px 0;
-}
-
-.btn:hover {
-  background-color: #F5EAE3;
-  color: #ea1538;
-  border: 2px solid #ea1538;
 }
 
 .mapa {
@@ -137,6 +129,12 @@ span {
   background-size: cover;
   margin: 70px 37px;
 }
+.card-nos .card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
 .card-nos .card-title {
   color: #F5EAE3;
   text-align: center;
@@ -147,13 +145,6 @@ span {
   text-align: center;
   color: #ea1538;
   font-weight: bold;
-}
-
-.card-img-top {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px;
 }
 
 .sub-packs {
@@ -229,19 +220,16 @@ span {
 .container-servicio .icono-3d {
   width: 200px;
 }
-
-.container-servicio, .text-servicio {
+.container-servicio .container-servicio, .container-servicio .text-servicio {
   color: #F5EAE3;
 }
-
-.servicio {
+.container-servicio .servicio {
   width: 350px;
   height: 350px;
   text-align: center;
   margin: 30px;
 }
-
-.servicio .bi, .servicio-1 .bi {
+.container-servicio .servicio .bi, .container-servicio .servicio-1 .bi {
   color: #ea1538;
   font-size: 7rem;
 }
@@ -256,15 +244,13 @@ span {
   font-weight: bold;
   color: #F5EAE3;
 }
-
-.bi {
+.pie-de-pagina .bi {
   padding: 20px;
   font-size: 1.5rem;
   color: #F5EAE3;
   transition: 0.3s;
 }
-
-.bi:hover {
+.pie-de-pagina .bi:hover {
   color: #ea1538;
 }
 

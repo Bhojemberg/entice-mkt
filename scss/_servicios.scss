@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 
     .tit-servicio {
         color: $color-primario;
@@ -20,21 +21,22 @@
     .icono-3d {
         width: 200px;
     }
+
+    .container-servicio, .text-servicio {
+        color: $color-secundario;
+    }
+    
+    .servicio{
+        width: 350px;
+        height: 350px;
+        text-align: center;
+        margin: 30px;
+    }
+    
+    
+    .servicio .bi, .servicio-1 .bi {
+        color: $color-primario;
+        font-size: 7rem;
+    }
 }
 
-.container-servicio, .text-servicio {
-    color: $color-secundario;
-}
-
-.servicio{
-    width: 350px;
-    height: 350px;
-    text-align: center;
-    margin: 30px;
-}
-
-
-.servicio .bi, .servicio-1 .bi {
-    color: $color-primario;
-    font-size: 7rem;
-}

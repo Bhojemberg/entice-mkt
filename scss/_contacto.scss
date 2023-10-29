@@ -5,20 +5,15 @@
 }
 
 .formulario {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     padding-top: 20px;
+
+    .row, .form-floating {
+        padding: 7px 5px 7px 0;
+    }
 }
 
- .row, .form-floating {
-    padding: 7px 5px 7px 0;
-}
-
-.btn:hover {
-    background-color: $color-secundario;
-    color: $color-primario;
-    border: 2px solid $color-primario;
-} 
 
 .mapa {
     width: 100%;

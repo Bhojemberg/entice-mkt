@@ -3,10 +3,17 @@
     color: $color-secundario;
     padding: 50px;
 
+
     .titulo {
         font-size: 5rem;
         padding: 30px;
         text-shadow: 2px 2px $color-detalle;
+    }
+
+    .subtitulo {
+        font-size: 2.8rem;
+        text-shadow: 2px 2px $color-detalle;
+        margin-top: 70px;
     }
 
     .botones {
@@ -26,11 +33,8 @@ span {
 
 
 
-.subtitulo {
-    font-size: 2.8rem;
-    text-shadow: 2px 2px $color-detalle;
-    margin-top: 70px;
-}
+
+
 
 
 
