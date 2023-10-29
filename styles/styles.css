@@ -144,8 +144,8 @@ span {
   display: inline-block;
   margin: 20px;
   width: 300px;
+  height: 450px;
   background-color: rgba(0, 0, 0, 0.1);
-  border: 2px solid #ea1538;
   border-radius: 20px;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.9);
   background: rgba(0, 0, 0, 0.4);
@@ -156,15 +156,12 @@ span {
   color: #F5EAE3;
   text-align: center;
   padding: 5px;
+  margin-top: 8px;
 }
 .card-nos .card-text-nos {
   text-align: center;
   color: #ea1538;
   font-weight: bold;
-}
-
-.card-nos:hover {
-  transform: translateY(-15px);
 }
 
 .card-img-top {
