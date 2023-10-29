@@ -14,14 +14,6 @@
     padding: 7px 5px 7px 0;
 }
 
-.btn {
-    margin-top: 10px;
-    color: $color-secundario;
-    background-color: $color-primario;
-    border: 1px solid $color-primario;
-    transition: .3s;
-}
-
 .btn:hover {
     background-color: $color-secundario;
     color: $color-primario;

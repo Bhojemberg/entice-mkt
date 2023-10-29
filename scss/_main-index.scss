@@ -9,22 +9,14 @@
         text-shadow: 2px 2px $color-detalle;
     }
 
-    .botones ul{
+    .botones {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding-top: 150px;
+        justify-content: space-evenly;
+        margin-top: 200px;
     }
-    
+
     .botones ul li {
         list-style-type: none;
-    }
-    
-    .botones ul li a{
-        text-decoration: none;
-        padding: 20px;
-        margin: 30px;
-        font-size: 1.2rem;
     }
 }
 
