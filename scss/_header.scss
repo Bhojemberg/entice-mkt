@@ -12,6 +12,18 @@ header {
         margin: 50px;
         border-radius: 50%;
     }
+
+    .navbar-toggler {
+        background-color: $color-secundario;
+        border: 1px solid $color-primario;
+        transition: .3s;
+    }
+
+    .navbar-toggler:hover {
+        background-color: $color-primario;
+        border: 1px solid $color-secundario;
+    }
+
     .nav-link {
         text-decoration: none;
         color: $color-detalle;

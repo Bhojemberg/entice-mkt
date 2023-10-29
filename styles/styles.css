@@ -30,6 +30,15 @@ header .logo {
   margin: 50px;
   border-radius: 50%;
 }
+header .navbar-toggler {
+  background-color: #F5EAE3;
+  border: 1px solid #ea1538;
+  transition: 0.3s;
+}
+header .navbar-toggler:hover {
+  background-color: #ea1538;
+  border: 1px solid #F5EAE3;
+}
 header .nav-link {
   text-decoration: none;
   color: #000;
