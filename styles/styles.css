@@ -147,6 +147,21 @@ span {
   font-weight: bold;
 }
 
+.contenedor1 {
+  padding: 20px;
+}
+.contenedor1 .texto {
+  color: #F5EAE3;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.6rem;
+}
+.contenedor1 .bi-check-all {
+  color: #ea1538;
+  font-weight: bold;
+  margin-right: 7px;
+}
+
 .sub-packs {
   font-size: 3rem;
   text-shadow: 2px 2px #000;
@@ -266,7 +281,7 @@ span {
 
 @media (max-width: 480px) {
   header, footer {
-    height: 200px;
+    height: auto;
   }
   body {
     display: grid;

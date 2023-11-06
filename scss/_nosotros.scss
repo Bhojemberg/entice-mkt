@@ -50,5 +50,21 @@
     }
 }
 
+.contenedor1 {
+    padding: 20px;
+
+    .texto {
+        color: $color-secundario;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.6rem;
+    }
+
+    .bi-check-all {
+        color: $color-primario;
+        font-weight: bold;
+        margin-right: 7px;
+    }
+}
 
 
